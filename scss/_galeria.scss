@@ -1,0 +1,12 @@
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+.galeria img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: #ccc1c2;
+}

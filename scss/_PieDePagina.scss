@@ -1,0 +1,31 @@
+.PiePagina{
+    background-color: #ee571b;
+    color: white;
+    display: grid;
+    grid-template-columns: 2fr 4fr 1fr;
+    column-gap: 15px;
+    padding: 10px;
+    align-items: center;
+    justify-items: center;
+    .info{
+        @include flex-column-gap(100%,20px,40px);
+        .descripcion img{
+            float: left;
+            margin: 10px;
+        }
+    }
+} 
+.PiePagina img{
+    max-width: 150px;
+    height: auto;
+    display: block;
+}
+.PiePagina .contactos .mapa{
+    width: 90%;
+    height: 400px;
+    border-radius: 8px;   
+}
+.PiePagina .redes i{
+    font-size: 32px;
+    margin: 10px;
+}

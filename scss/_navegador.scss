@@ -1,0 +1,28 @@
+.navegador{
+    background-color: #ee571b;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    img{
+        margin: 10px;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: end;
+        margin: 0;
+        li a{
+            color: white;
+            text-decoration: none;
+            display: block;
+            padding: 10px 20px;
+        }
+    }
+    .menu{
+        display: none;    
+    }
+} 
